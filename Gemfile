@@ -5,6 +5,7 @@ ruby '2.1.2'
 group :development do 
 	gem 'spring'
 	gem 'better_errors'
+	gem 'sqlite3'
 end
 
 group :production do 

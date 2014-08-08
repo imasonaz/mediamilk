@@ -1,21 +1,3 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-= require theme-5
-
-
 html,
 body {
   height: 100%;
@@ -40,7 +22,7 @@ h6 {
   font-family: 'Bree Serif', 'Roboto', serif;
 }
 ::selection {
-  background-color: #e7849b;
+  background-color: #ea6153;
   color: white;
   -o-text-shadow: none;
   -moz-text-shadow: none;
@@ -60,7 +42,7 @@ h6 {
 }
 ::-webkit-scrollbar-thumb:vertical:hover,
 ::-webkit-scrollbar-thumb:horizontal:hover {
-  background: #e36f8a;
+  background: #e74c3c;
 }
 ::-webkit-scrollbar-thumb:horizontal {
   background-color: rgba(0, 0, 0, 0.2);
@@ -70,7 +52,7 @@ div.hz-divider {
   clear: both;
   height: 1px;
   display: block;
-  background-color: trans-rent;
+  background-color: transparent;
 }
 div.hz-divider.tiny {
   margin: 5px 0;
@@ -99,7 +81,7 @@ div.hz-divider.x-large {
   line-height: 50px;
   z-index: 15;
   color: #ffffff;
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   text-align: center;
   font-size: 2.5em;
 }
@@ -108,13 +90,13 @@ div.hz-divider.x-large {
 }
 /*#region Home Screen */
 .home-screen {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   text-align: center;
   position: relative;
   padding: 1px;
   overflow: hidden;
   height: 100%;
-  background-image: url(fullhd-bg-1.jpg);
+  background-image: url(../img/fullhd-bg-1.jpg);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -290,7 +272,7 @@ div.hz-divider.x-large {
   width: 100%;
   margin-top: -26px;
   height: 52px;
-  background-image: url(slider-icon-shadow.png);
+  background-image: url(../img/slider-icon-shadow.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -650,7 +632,7 @@ div.hz-divider.x-large {
   margin-right: 5px;
 }
 .btn.btn-brand {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -659,7 +641,7 @@ div.hz-divider.x-large {
   color: white;
 }
 .btn.btn-brand:hover {
-  background-color: #df5a79;
+  background-color: #e43725;
   border: none;
 }
 .btn.btn-brand:active {
@@ -669,7 +651,7 @@ div.hz-divider.x-large {
   padding: 12px 18px;
 }
 .theme-color {
-  color: #e36f8a;
+  color: #e74c3c;
 }
 /*#endregion */
 /*#region Navigation */
@@ -698,7 +680,7 @@ div.hz-divider.x-large {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a > i,
@@ -731,10 +713,10 @@ div.hz-divider.x-large {
   overflow-x: hidden;
 }
 .service-item .bg-icon-abstract {
-  color: rgba(227, 111, 138, 0.05);
+  color: rgba(231, 76, 60, 0.05);
 }
 .service-item .service-title {
-  color: #e36f8a;
+  color: #e74c3c;
   font-size: 4em;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -744,7 +726,7 @@ div.hz-divider.x-large {
   font-size: 2em;
 }
 .service-item .service-icon {
-  color: #e36f8a;
+  color: #e74c3c;
   display: inline-block;
   font-size: 25em;
 }
@@ -813,7 +795,7 @@ div.hz-divider.x-large {
 /*#endregion */
 /*#region Pricing */
 .pricing {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   padding: 100px 0;
   position: relative;
   overflow: hidden;
@@ -850,7 +832,7 @@ div.hz-divider.x-large {
 }
 .pricing .pricing-table-item .pricing-table-price {
   padding: 30px;
-  color: #e36f8a;
+  color: #e74c3c;
   font-weight: 400;
 }
 .pricing .pricing-table-item .pricing-table-price .price-large {
@@ -888,7 +870,7 @@ div.hz-divider.x-large {
 }
 .pricing .pricing-table-item.featured-plan:after {
   content: attr(data-featured-text);
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   display: inline-block;
   padding: 5px 15px;
   width: 150px;
@@ -907,12 +889,12 @@ div.hz-divider.x-large {
   color: #ffffff;
 }
 .pricing .pricing-table-item.featured-plan .pricing-table-price .price-large {
-  background-color: #e36f8a;
-  border: 1px solid #e16683;
+  background-color: #e74c3c;
+  border: 1px solid #e64433;
 }
 .pricing .pricing-table-item.featured-plan .pricing-table-price .price-large .price-small {
-  background-color: #e36f8a;
-  border: 1px solid #e16683;
+  background-color: #e74c3c;
+  border: 1px solid #e64433;
 }
 .pricing .pricing-table-item:hover .pricing-table-price {
   -webkit-animation-duration: 1s;
@@ -985,11 +967,11 @@ div.hz-divider.x-large {
   background-color: #ffffff;
 }
 .portfolio .portfolio-filtering > ul > li > a.active {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   color: #ffffff;
 }
 .portfolio .portfolio-filtering > ul > li > a.active:hover {
-  background-color: #df5a79;
+  background-color: #e43725;
 }
 .portfolio-container {
   overflow: hidden;
@@ -1021,8 +1003,8 @@ div.hz-divider.x-large {
   left: 5px;
   right: 5px;
   bottom: 5px;
-  background-color: #e36f8a;
-  background-color: rgba(227, 111, 138, 0.8);
+  background-color: #e74c3c;
+  background-color: rgba(231, 76, 60, 0.8);
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
@@ -1033,7 +1015,7 @@ div.hz-divider.x-large {
   -webkit-transform: rotateY(90deg);
   transform: rotateY(90deg);
   opacity: 0;
-  border: 1px solid #e36f8a;
+  border: 1px solid #e74c3c;
   letter-spacing: 0;
 }
 .no-opacity .portfolio-container .portfolio-item .overlay {
@@ -1107,7 +1089,7 @@ div.hz-divider.x-large {
 /*#endregion */
 /*#region Features */
 .features {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   padding: 100px 0;
   color: #ffffff;
   position: relative;
@@ -1161,7 +1143,7 @@ div.hz-divider.x-large {
   cursor: pointer;
 }
 .features .features-slider-nav li.active {
-  background-color: #c6264b;
+  background-color: #a82315;
 }
 .features-slider {
   display: block;
@@ -1177,11 +1159,11 @@ div.hz-divider.x-large {
 .features-slider .features-slide-icon {
   display: inline-block;
   font-size: 10em;
-  -o-text-shadow: 2px 3px 1px #b02243;
-  -moz-text-shadow: 2px 3px 1px #b02243;
-  -ms-text-shadow: 2px 3px 1px #b02243;
-  -webkit-text-shadow: 2px 3px 1px #b02243;
-  text-shadow: 2px 3px 1px #b02243;
+  -o-text-shadow: 2px 3px 1px #921e12;
+  -moz-text-shadow: 2px 3px 1px #921e12;
+  -ms-text-shadow: 2px 3px 1px #921e12;
+  -webkit-text-shadow: 2px 3px 1px #921e12;
+  text-shadow: 2px 3px 1px #921e12;
   padding-top: 20px;
   opacity: 0;
 }
@@ -1377,7 +1359,7 @@ div.hz-divider.x-large {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 .map-holder .map-overlay {
-  background-color: #e36f8a;
+  background-color: #e74c3c;
   padding: 80px 0 100px 0;
   text-align: center;
   color: white;
@@ -1392,11 +1374,11 @@ div.hz-divider.x-large {
   font-size: 11em;
   display: inline-block;
   margin-bottom: 40px;
-  -o-text-shadow: 2px 3px 1px #b02243;
-  -moz-text-shadow: 2px 3px 1px #b02243;
-  -ms-text-shadow: 2px 3px 1px #b02243;
-  -webkit-text-shadow: 2px 3px 1px #b02243;
-  text-shadow: 2px 3px 1px #b02243;
+  -o-text-shadow: 2px 3px 1px #921e12;
+  -moz-text-shadow: 2px 3px 1px #921e12;
+  -ms-text-shadow: 2px 3px 1px #921e12;
+  -webkit-text-shadow: 2px 3px 1px #921e12;
+  text-shadow: 2px 3px 1px #921e12;
 }
 .map-holder .map-overlay .map-toggle {
   display: inline-block;

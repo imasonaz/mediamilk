@@ -34,6 +34,10 @@ group :doc do
   gem 'sdoc', '~> 0.4.0',          group: :doc
 end
 
+gem 'therubyracer'
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'less-rails-bootstrap'
 gem 'unicorn'
 gem 'devise', '~> 3'
 gem 'mail_form'

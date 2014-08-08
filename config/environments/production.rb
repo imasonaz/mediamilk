@@ -1,4 +1,8 @@
 Rails.application.configure do
+
+  config.less.paths << "/Users/l0010o0001l/RailsProjects/mediamilk/app/assets/less"
+  config.less.compress = true
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

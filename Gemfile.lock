@@ -271,7 +271,6 @@ DEPENDENCIES
   simple_form
   spork-rails (= 4.0.0)
   spring
-  sprockets
   sqlite3
   therubyracer
   turbolinks

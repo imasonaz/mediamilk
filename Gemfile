@@ -13,7 +13,6 @@ group :development do
   gem 'sqlite3'
   gem 'spring'
   gem 'better_errors'
-  gem 'rspec-rails', '~> 3.0.1'
 end
 
 group :development, :test do
@@ -21,11 +20,11 @@ group :development, :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess'
   gem 'foreman'
+  gem 'rspec-rails', '~> 3.0.1'
 end
 
 group :test do
   gem 'factory_girl_rails', '4.2.0'
-  gem 'rspec-rails', '~> 3.0.1'
   gem 'selenium-webdriver', '~> 2.42.0'
   gem 'capybara'
 end

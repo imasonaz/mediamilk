@@ -1,6 +1,6 @@
 Rails.application.configure do
 
-  config.less.paths << "/Users/l0010o0001l/RailsProjects/mediamilk/app/assets/less"
+  config.less.paths << "home/adminuser/RailsProjects/mediamilk/app/assets"
   config.less.compress = true
 
   # Settings specified here will take precedence over those in config/application.rb.
@@ -24,7 +24,7 @@ Rails.application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
@@ -84,4 +84,13 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  app.config.assets.precompile.push(Proc.new do |path|
+        File.extname(path).in? [
+        '.html', '.erb', '.haml',                 # Templates
+        '.png',  '.gif', '.jpg', '.jpeg',         # Images
+        '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
+        ]
+        end)
+    end
 end

@@ -1,4 +1,7 @@
 Rails.application.configure do
+
+  config.less.paths << "home/adminuser/RailsProjects/mediamilk/app/assets"
+  config.less.compress = true
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

@@ -13,7 +13,16 @@
  *= require_tree .
  *= require_self
  */
-= require theme-10
+
+//= require "animate.css"
+//= require "bootstrap.css"
+//= require "font-awesome.css"
+//= require "mixin.less"
+//= require "preloader.less"
+//= require "seo-icons.css"
+//= require "slider.less"
+//= require "theme-10.css"
+//= require "variables.less"
 
 
 html,

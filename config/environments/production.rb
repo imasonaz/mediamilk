@@ -2,6 +2,8 @@ Rails.application.configure do
 
   config.less.paths << "home/adminuser/RailsProjects/mediamilk/app/assets"
   config.less.compress = true
+  config.serve_static_assets = true 
+  #config.assets.path = "home/adminuser/RailsProjects/mediamilk/app/assets"
 
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -91,6 +93,6 @@ Rails.application.configure do
         '.png',  '.gif', '.jpg', '.jpeg',         # Images
         '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
         ]
-        end)
+        )
     end
 end

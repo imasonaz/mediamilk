@@ -12,15 +12,16 @@
  *
  */
 
- //= require "animate.css"
- //= require "bootstrap.css"
- //= require "font-awesome.css"
- //= require "mixin.less"
- //= require "preloader.less"
- //= require "seo-icons.css"
- //= require "slider.less"
- //= require "theme-9.css"
- //= require "variables.less"
- //= require "flexslider.css"
- //= require_tree .
- //= require_self
+
+ = require "animate.css"
+ = require "bootstrap.css"
+ = require "font-awesome.css"
+ = require "mixin.less"
+ = require "preloader.less"
+ = require "seo-icons.css"
+ = require "slider.less"
+ = require "theme-9.css"
+ = require "variables.less"
+ = require "flexslider.css"
+ = require_tree .
+ = require_self

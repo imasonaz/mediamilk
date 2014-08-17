@@ -23,3 +23,4 @@
 *= require respond
 *= require jquery.sequence
 *= require waypoints
+;

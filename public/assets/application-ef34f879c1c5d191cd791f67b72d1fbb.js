@@ -11,15 +11,16 @@
 // about supported directives.
 //
 
-*= require iniitializer
-*= require jquery-1.10.2
-*= require modernizr
-*= require bootstrap
-*= require turbolinks
-*= require_tree .
-*= require jquery.flexslider
-*= require jquery.mixitup
-*= require pace
-*= require respond
-*= require jquery.sequence
-*= require waypoints
+= require iniitializer
+= require jquery-1.10.2
+= require modernizr
+= require bootstrap
+= require turbolinks
+= require_tree .
+= require "jquery.flexslider.js"
+= require "jquery.mixitup.js"
+= require pace
+= require "respond.src.js"
+= require "jquery.sequence.js"
+= require waypoints
+;

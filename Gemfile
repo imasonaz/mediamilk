@@ -5,7 +5,6 @@ ruby '2.1.2'
 gem 'rails', '4.1.1'
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 
@@ -33,6 +32,7 @@ group :doc do
   gem 'sdoc', '~> 0.4.0',          group: :doc
 end
 
+gem 'pg'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'

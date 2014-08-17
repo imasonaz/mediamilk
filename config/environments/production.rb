@@ -91,6 +91,5 @@ Rails.application.configure do
         '.png',  '.gif', '.jpg', '.jpeg',         # Images
         '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
         ]
-        )
-    end
+        end)
 end

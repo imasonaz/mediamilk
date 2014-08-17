@@ -1,7 +1,5 @@
 Rails.application.configure do
 
-  config.less.paths << "home/adminuser/RailsProjects/mediamilk/app/assets"
-  config.less.compress = true
   config.serve_static_assets = true 
   #config.assets.path = "home/adminuser/RailsProjects/mediamilk/app/assets"
 

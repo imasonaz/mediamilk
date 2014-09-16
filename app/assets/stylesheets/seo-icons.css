@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Seo-Icons';
-	src:url('Seo-Icons.eot');
-	src:url('Seo-Icons.eot?#iefix') format('embedded-opentype'),
-		url('Seo-Icons.ttf') format('truetype'),
-		url('Seo-Icons.woff') format('woff'),
-		url('Seo-Icons.svg#Seo-Icons') format('svg');
+	src:font-url('Seo-Icons.eot');
+	src:font-url('Seo-Icons.eot?#iefix') format('embedded-opentype'),
+		font-url('Seo-Icons.ttf') format('truetype'),
+		font-url('Seo-Icons.woff') format('woff'),
+		font-url('Seo-Icons.svg#Seo-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

@@ -6,12 +6,12 @@ gem 'rails', '4.1.1'
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :development do
   gem 'sqlite3'
   gem 'spring'
-  gem 'better_errors'
 end
 
 group :development, :test do
@@ -32,7 +32,7 @@ group :doc do
   gem 'sdoc', '~> 0.4.0',          group: :doc
 end
 
-gem 'pg'
+gem 'better_errors'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'

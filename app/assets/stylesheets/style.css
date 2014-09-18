@@ -305,7 +305,11 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(/assets/mm-1.png) no-repeat center;
+	background: url(/assets/mm-1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 80%;
 }
 
 #intro.intro {

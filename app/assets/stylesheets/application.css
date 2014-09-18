@@ -9,18 +9,6 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ * //= require_tree .
+ * //= require_self
  */
-
- //= require "animate.css"
- //= require "bootstrap.css"
- //= require "font-awesome.css"
- //= require "mixin.less"
- //= require "preloader.less"
- //= require "seo-icons.css"
- //= require "slider.less"
- //= require "theme-9.css"
- //= require "variables.less"
- //= require "flexslider.css"
- //= require_tree .
- //= require_self

@@ -9,17 +9,7 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
-
-*= require iniitializer
-*= require jquery-1.10.2
-*= require modernizr
-*= require bootstrap
-*= require turbolinks
-*= require_tree .
-*= require jquery.flexslider
-*= require jquery.mixitup
-*= require pace
-*= require respond
-*= require jquery.sequence
-*= require waypoints
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
